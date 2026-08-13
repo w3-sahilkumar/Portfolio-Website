@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sahil Kumar — Data Enthusiast</title>
+  <meta name="description" content="Portfolio of Sahil Kumar — web developer and aspiring data analyst. Projects in HTML, Python and SQL." />
+
+  <!-- Fonts: Space Grotesk (display), Inter (body), IBM Plex Mono (terminal / labels) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Skip link for keyboard / screen-reader users -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__logo" aria-label="Sahil Kumar, back to top">sahil_kumar<span class="cursor">_</span></a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#projects" class="nav__link">~/projects</a>
+        <a href="#skills" class="nav__link">~/skills</a>
+        <a href="#about" class="nav__link">~/about</a>
+        <a href="#contact" class="nav__link">~/contact</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <p class="hero__prompt font-mono">
+            <span class="hero__prompt-user">sahil@portfolio</span><span class="hero__prompt-sep">:~$</span>
+            <span id="typedRole"></span><span class="cursor cursor--blink" aria-hidden="true">_</span>
+          </p>
+
+          <h1 class="hero__name">Sahil-Kumar</h1>
+
+          <p class="hero__tagline">
+            I build things for the web and dig through data to find what it's
+            trying to say. Currently sharpening both crafts, one repo at a time.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">View projects</a>
+            <a href="#contact" class="btn btn--ghost">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal" aria-label="Profile picture section">
+          <div class="profile-card" aria-label="Sahil Kumar monogram placeholder">
+            <div class="profile-glow"></div>
+            <div class="profile-monogram" aria-hidden="true">S</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__footer">
+        <ul class="social-row" aria-label="Social links">
+          <li>
+            <a href="https://github.com/w3-sahilkumar" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.4-1.4-5.4-6a4.6 4.6 0 0 1 1.2-3.2 4.3 4.3 0 0 1 .1-3.2s1-.3 3.3 1.2a11.3 11.3 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.7.1 3 .8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.7-5.5 6 .5.4.9 1.1.9 2.3v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3Z"/></svg>
+              <span class="sr-only">GitHub</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/sahil-kumar-87b26b245/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M20.4 20.4h-3.5v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9v5.7H9.4V9h3.4v1.6h.1a3.7 3.7 0 0 1 3.3-1.8c3.5 0 4.2 2.3 4.2 5.4v6.2ZM5.3 7.4a2 2 0 1 1 0-4.1 2 2 0 0 1 0 4Zm1.8 13H3.6V9h3.5v11.4ZM22.2 0H1.8A1.8 1.8 0 0 0 0 1.8v20.4A1.8 1.8 0 0 0 1.8 24h20.4a1.8 1.8 0 0 0 1.8-1.8V1.8A1.8 1.8 0 0 0 22.2 0Z"/></svg>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:w3.sahilkumar@gmail.com" aria-label="Send an email">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm1.5 2.7V18h17V6.7l-8.1 6.1a1 1 0 0 1-1.2 0l-7.7-6.1Zm1-.7 7.5 6 7.6-6H4.5Z"/></svg>
+              <span class="sr-only">Email</span>
+            </a>
+          </li>
+        </ul>
+
+        <a href="#projects" class="scroll-cue font-mono" aria-hidden="true">scroll<span class="scroll-cue__arrow">↓</span></a>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="section__inner">
+        <p class="eyebrow font-mono">~/projects</p>
+        <h2 class="section__title">Things I've built</h2>
+        <p class="section__lede">
+          A few repos worth a look — from front-end builds to data digging in
+          SQL and Python. More on <a href="https://github.com/w3-sahilkumar" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        </p>
+
+        <div class="project-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card reveal">
+            <div class="project-card__bar">
+              <span class="dot dot--red"></span><span class="dot dot--amber"></span><span class="dot dot--green"></span>
+              <span class="project-card__filename font-mono">bike-store-analysis.sql</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Bike Store Sales &amp; BI Analysis</h3>
+              <p class="project-card__desc">
+                Given a bicycle retailer's transactional database, I used SQL
+                to dig into sales performance, customer behaviour, product
+                and inventory trends, store performance, and operational
+                efficiency.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li class="tag">SQL</li>
+                <li class="tag">Business Intelligence</li>
+                <li class="tag">Data Analysis</li>
+              </ul>
+              <a class="project-card__link font-mono" href="https://github.com/w3-sahilkumar/Bike-Store-Sales-and-Business-Intelligence-Analysis" target="_blank" rel="noopener noreferrer">
+                view source →
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reveal">
+            <div class="project-card__bar">
+              <span class="dot dot--red"></span><span class="dot dot--amber"></span><span class="dot dot--green"></span>
+              <span class="project-card__filename font-mono">influencex.html</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">InfluenceX</h3>
+              <p class="project-card__desc">
+                <!-- EDIT: swap in a real description of what this project does -->
+                A front-end build put together with HTML, CSS and
+                JavaScript. Add a line here about who it's for and what it
+                does once you're ready to show it off.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">JavaScript</li>
+              </ul>
+              <a class="project-card__link font-mono" href="https://github.com/w3-sahilkumar/influencex" target="_blank" rel="noopener noreferrer">
+                view source →
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card reveal">
+            <div class="project-card__bar">
+              <span class="dot dot--red"></span><span class="dot dot--amber"></span><span class="dot dot--green"></span>
+              <span class="project-card__filename font-mono">python-projects/</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Python Projects</h3>
+              <p class="project-card__desc">
+                A running collection of Python scripts and small projects —
+                where I practice scripting, automation and general
+                problem-solving outside of coursework.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li class="tag">Python</li>
+                <li class="tag">Scripting</li>
+                <li class="tag">Automation</li>
+              </ul>
+              <a class="project-card__link font-mono" href="https://github.com/w3-sahilkumar/python-projects" target="_blank" rel="noopener noreferrer">
+                view source →
+              </a>
+            </div>
+          </article>
+
+          <!--
+            EDIT: to add another project card, copy an <article class="project-card reveal">
+            block above and update the filename, title, description, tags and link.
+          -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section--muted" id="skills">
+      <div class="section__inner">
+        <p class="eyebrow font-mono">~/skills</p>
+        <h2 class="section__title">Tools &amp; technologies</h2>
+
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title font-mono">Web</h3>
+            <ul class="tag-list">
+              <li class="tag">HTML5</li>
+              <li class="tag">CSS3</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">Git &amp; GitHub</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title font-mono">Data</h3>
+            <ul class="tag-list">
+              <li class="tag">Python</li>
+              <li class="tag">SQL</li>
+              <li class="tag">Data Analysis</li>
+              <li class="tag">Excel</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3 class="skill-group__title font-mono">Currently learning</h3>
+            <ul class="tag-list">
+              <li class="tag">Data Visualization</li>
+              <li class="tag">REST APIs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="section__inner section__inner--split">
+        <div class="about__text reveal">
+          <p class="eyebrow font-mono">~/about</p>
+          <h2 class="section__title">A bit about me</h2>
+          <p>
+            I'm Sahil, a developer based in India who likes working across
+            two worlds: building clean, usable interfaces on the front end,
+            and pulling insight out of raw data on the back end. I like
+            projects that make me learn something new — whether that's a
+            new SQL trick or a JavaScript pattern I haven't used before.
+          </p>
+          <p>
+            <!-- EDIT: personalise this paragraph — studies, goals, interests -->
+            Right now I'm building out my portfolio of real projects and
+            looking for opportunities where I can keep growing as both a
+            developer and an analyst.
+          </p>
+        </div>
+
+        <aside class="about__card reveal font-mono" aria-label="Quick facts">
+          <p class="about__card-line"><span class="about__card-key">$</span> whoami</p>
+          <dl class="about__facts">
+            <div><dt>name</dt><dd>Sahil Kumar</dd></div>
+            <div><dt>based_in</dt><dd>India</dd></div>
+            <div><dt>focus</dt><dd>Web Dev + Data</dd></div>
+            <div><dt>status</dt><dd class="about__status"><span class="status-dot"></span>Open to opportunities</dd></div>
+          </dl>
+        </aside>
+      </div>
+
+      <div class="stats-grid reveal">
+        <div class="stat-item">
+          <span class="stat-number" data-target="10">0</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="30">0</span>
+          <span class="stat-label">SQL queries</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="3">0</span>
+          <span class="stat-label">Years learning</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section--contact" id="contact">
+      <div class="section__inner">
+        <p class="eyebrow font-mono">~/contact</p>
+        <h2 class="section__title">Let's build something</h2>
+        <p class="section__lede">
+          Want to talk? My inbox is open.
+        </p>
+
+        <div class="contact__row">
+          <a href="mailto:w3.sahilkumar@gmail.com" class="contact__email">w3.sahilkumar@gmail.com</a>
+          <button class="copy-email-btn font-mono" type="button" aria-label="Copy email address">
+            Copy email
+          </button>
+        </div>
+
+        <ul class="social-row social-row--contact" aria-label="Social links">
+          <li>
+            <a href="https://github.com/w3-sahilkumar" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/sahil-kumar-87b26b245/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Sahil Kumar. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
