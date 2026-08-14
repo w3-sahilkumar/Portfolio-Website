@@ -268,7 +268,7 @@ function initAnimatedStats(prefersReducedMotion) {
 
   const animateCounter = (element) => {
     const target = Number(element.dataset.target || 0);
-    const duration = 3000;
+    const duration = 4000;
     const start = performance.now();
 
     const tick = (now) => {
