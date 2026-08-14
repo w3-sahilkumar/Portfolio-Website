@@ -30,7 +30,7 @@ function initTypedRole(prefersReducedMotion) {
     "Data Analyst",
     "Web Developer",
     "Problem Solver",
-    "Tech Enthusiast",
+    "Open Source Enthusiast",
   ];
 
   // If the user prefers less motion, just show the first role, static.
@@ -268,7 +268,7 @@ function initAnimatedStats(prefersReducedMotion) {
 
   const animateCounter = (element) => {
     const target = Number(element.dataset.target || 0);
-    const duration = 1400;
+    const duration = 3000;
     const start = performance.now();
 
     const tick = (now) => {
@@ -299,4 +299,3 @@ function initAnimatedStats(prefersReducedMotion) {
 
   stats.forEach((stat) => observer.observe(stat));
 }
-
