@@ -30,7 +30,7 @@ function initTypedRole(prefersReducedMotion) {
     "Data Analyst",
     "Web Developer",
     "Problem Solver",
-    "Open Source Enthusiast",
+    "Tech Enthusiast",
   ];
 
   // If the user prefers less motion, just show the first role, static.
