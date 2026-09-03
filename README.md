@@ -56,54 +56,6 @@ I enjoy taking messy or complex data, finding the story behind it, and turning i
 
 ---
 
-## 📈 Featured Projects
-
-### 🛍️ Customer Shopping Behavior Analysis
-
-**Python • Pandas • SQL • Power BI**
-
-An end-to-end analytics project covering:
-
-* 🧹 Data cleaning & validation
-* 🔎 Exploratory Data Analysis
-* 🗄️ SQL business analysis
-* 📊 KPI development
-* 📈 Power BI dashboarding
-* 💡 Business insights & recommendations
-
-**→** [View Project](https://github.com/w3-sahilkumar)
-
----
-
-### 🚲 Bike Store Sales & Business Intelligence
-
-**SQL • MySQL • Business Analysis**
-
-Analyzed a multi-store retail dataset to understand:
-
-* Revenue performance
-* Customer behavior
-* Product & category performance
-* Store performance
-* Order trends
-* Average Order Value
-
-**→** [View Project](https://github.com/w3-sahilkumar/Bike-Store-Sales-and-Business-Intelligence-Analysis)
-
----
-
-### 🐍 Python Projects
-
-**Python • Pandas • Data Analysis**
-
-A collection of projects focused on:
-
-`Data Analysis` • `Automation` • `Data Manipulation` • `Problem Solving`
-
-**→** [Explore Repository](https://github.com/w3-sahilkumar)
-
----
-
 ## 💼 Professional Experience
 
 **Axis Bank — Coordinator, Retail Lending**
