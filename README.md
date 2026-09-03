@@ -1,31 +1,9 @@
-# 👋 Hi, I'm Sahil Kumar
+👋 Hi, I'm Sahil Kumar
+📊 Data Analyst | 💡 Problem Solver | 🧠 Critical Thinker
 
-### 📊 Data Analyst | 💡 Problem Solver | 🧠 Critical Thinker
+Turning data into insights, and insights into better decisions.
 
-> **Turning data into insights, and insights into better decisions.**
-
-<p align="left">
-
-🔗 Portfolio
-<a href="https://w3-sahilkumar.github.io/Portfolio-Website/">
-https://w3-sahilkumar.github.io/Portfolio-Website/
-</a>
-
-<br>
-
-💼 LinkedIn
-<a href="https://www.linkedin.com/in/sahil-kumar-87b26b245/">
-https://www.linkedin.com/in/sahil-kumar-87b26b245/
-</a>
-
-<br>
-
-🐙 GitHub
-<a href="https://github.com/w3-sahilkumar">
-https://github.com/w3-sahilkumar
-</a>
-
-</p>
+<p align="center"> <a href="https://w3-sahilkumar.github.io/Portfolio-Website/"> <img src="https://img.shields.io/badge/🌐_Portfolio-Visit_Website-black?style=for-the-badge" /> </a> <a href="https://www.linkedin.com/in/sahil-kumar-87b26b245/"> <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" /> </a> <a href="https://github.com/w3-sahilkumar"> <img src="https://img.shields.io/badge/GitHub-Explore_Projects-181717?style=for-the-badge&logo=github" /> </a> </p>
 
 ---
 
