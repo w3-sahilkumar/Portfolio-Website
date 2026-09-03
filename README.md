@@ -4,16 +4,27 @@
 
 > **Turning data into insights, and insights into better decisions.**
 
-<p align="center">
-  <a href="https://w3-sahilkumar.github.io/Portfolio-Website/">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-Visit_Website-black?style=for-the-badge" />
-  </a>
-  <a href="https://www.linkedin.com/in/sahil-kumar-87b26b245/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
-  </a>
-  <a href="https://github.com/w3-sahilkumar">
-    <img src="https://img.shields.io/badge/GitHub-Explore_Projects-181717?style=for-the-badge&logo=github" />
-  </a>
+<p align="left">
+
+🔗 Portfolio
+<a href="https://w3-sahilkumar.github.io/Portfolio-Website/">
+https://w3-sahilkumar.github.io/Portfolio-Website/
+</a>
+
+<br>
+
+💼 LinkedIn
+<a href="https://www.linkedin.com/in/sahil-kumar-87b26b245/">
+https://www.linkedin.com/in/sahil-kumar-87b26b245/
+</a>
+
+<br>
+
+🐙 GitHub
+<a href="https://github.com/w3-sahilkumar">
+https://github.com/w3-sahilkumar
+</a>
+
 </p>
 
 ---
@@ -115,14 +126,14 @@ It's about asking the **right questions**, finding the **right patterns**, and c
 
 ## 🤝 Let's Connect
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/sahil-kumar-87b26b245/">
-    <img src="https://img.shields.io/badge/LinkedIn-Sahil_Kumar-blue?style=for-the-badge&logo=linkedin"/>
-  </a>
-  <a href="https://github.com/w3-sahilkumar">
-    <img src="https://img.shields.io/badge/GitHub-w3--sahilkumar-black?style=for-the-badge&logo=github"/>
-  </a>
-</p>
+Portfolio
+🔗 https://w3-sahilkumar.github.io/Portfolio-Website/
+
+LinkedIn
+💼 https://www.linkedin.com/in/sahil-kumar-87b26b245/
+
+GitHub
+🐙 https://github.com/w3-sahilkumar
 
 ---
 
