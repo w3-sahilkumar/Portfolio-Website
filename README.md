@@ -1,9 +1,20 @@
-👋 Hi, I'm Sahil Kumar
-📊 Data Analyst | 💡 Problem Solver | 🧠 Critical Thinker
+# 👋 Hi, I'm Sahil Kumar
 
-Turning data into insights, and insights into better decisions.
+### 📊 Data Analyst | 💡 Problem Solver | 🧠 Critical Thinker
 
-<p align="center"> <a href="https://w3-sahilkumar.github.io/Portfolio-Website/"> <img src="https://img.shields.io/badge/🌐_Portfolio-Visit_Website-black?style=for-the-badge" /> </a> <a href="https://www.linkedin.com/in/sahil-kumar-87b26b245/"> <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" /> </a> <a href="https://github.com/w3-sahilkumar"> <img src="https://img.shields.io/badge/GitHub-Explore_Projects-181717?style=for-the-badge&logo=github" /> </a> </p>
+> **Turning data into insights, and insights into better decisions.**
+
+<p align="center">
+  <a href="https://w3-sahilkumar.github.io/Portfolio-Website/">
+    <img src="https://img.shields.io/badge/🌐_Portfolio-Visit_Website-black?style=for-the-badge" />
+  </a>
+  <a href="https://www.linkedin.com/in/sahil-kumar-87b26b245/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="https://github.com/w3-sahilkumar">
+    <img src="https://img.shields.io/badge/GitHub-Explore_Projects-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
 
 ---
 
@@ -42,6 +53,54 @@ I enjoy taking messy or complex data, finding the story behind it, and turning i
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"/>
 </p>
+
+---
+
+## 📈 Featured Projects
+
+### 🛍️ Customer Shopping Behavior Analysis
+
+**Python • Pandas • SQL • Power BI**
+
+An end-to-end analytics project covering:
+
+* 🧹 Data cleaning & validation
+* 🔎 Exploratory Data Analysis
+* 🗄️ SQL business analysis
+* 📊 KPI development
+* 📈 Power BI dashboarding
+* 💡 Business insights & recommendations
+
+**→** [View Project](https://github.com/w3-sahilkumar)
+
+---
+
+### 🚲 Bike Store Sales & Business Intelligence
+
+**SQL • MySQL • Business Analysis**
+
+Analyzed a multi-store retail dataset to understand:
+
+* Revenue performance
+* Customer behavior
+* Product & category performance
+* Store performance
+* Order trends
+* Average Order Value
+
+**→** [View Project](https://github.com/w3-sahilkumar/Bike-Store-Sales-and-Business-Intelligence-Analysis)
+
+---
+
+### 🐍 Python Projects
+
+**Python • Pandas • Data Analysis**
+
+A collection of projects focused on:
+
+`Data Analysis` • `Automation` • `Data Manipulation` • `Problem Solving`
+
+**→** [Explore Repository](https://github.com/w3-sahilkumar)
 
 ---
 
@@ -104,14 +163,14 @@ It's about asking the **right questions**, finding the **right patterns**, and c
 
 ## 🤝 Let's Connect
 
-Portfolio
-🔗 https://w3-sahilkumar.github.io/Portfolio-Website/
-
-LinkedIn
-💼 https://www.linkedin.com/in/sahil-kumar-87b26b245/
-
-GitHub
-🐙 https://github.com/w3-sahilkumar
+<p align="center">
+  <a href="https://www.linkedin.com/in/sahil-kumar-87b26b245/">
+    <img src="https://img.shields.io/badge/LinkedIn-Sahil_Kumar-blue?style=for-the-badge&logo=linkedin"/>
+  </a>
+  <a href="https://github.com/w3-sahilkumar">
+    <img src="https://img.shields.io/badge/GitHub-w3--sahilkumar-black?style=for-the-badge&logo=github"/>
+  </a>
+</p>
 
 ---
 
