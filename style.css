@@ -55,6 +55,21 @@ main {
   border-radius: 8px;
 }
 
+.certificate-note {
+  margin: 0.5rem 0 1rem;
+  color: #4b5563;
+}
+
+.certificate-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.certificate-empty {
+  margin: 0.75rem 0 0;
+  color: #b91c1c;
+}
+
 footer {
   text-align: center;
   padding: 1rem;

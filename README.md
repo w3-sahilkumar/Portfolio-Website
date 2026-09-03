@@ -7,6 +7,7 @@ This repository contains a simple personal portfolio website that you can share 
 - `index.html` – main page structure
 - `style.css` – styling for the page
 - `script.js` – small JavaScript behavior (dynamic copyright year)
+- `assets/images/certificates/` – put your certificate images in this folder
 
 ## Run locally
 
@@ -28,6 +29,11 @@ Update the placeholder details in `index.html`:
 - About section
 - Projects
 - Contact details
+
+For certificate images:
+
+1. Put your files in `assets/images/certificates/`
+2. Update certificate file names in `script.js` (`certificateFiles` list)
 
 ## Share with recruiters
 

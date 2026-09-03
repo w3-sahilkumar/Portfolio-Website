@@ -33,11 +33,16 @@
 
       <section id="certificates" class="section">
         <h2>Certificates</h2>
-        <img
-          class="certificate-image"
-          src="assets/certificates/certificate-sample.svg"
-          alt="Sample certificate preview"
-        />
+        <p class="certificate-note">
+          Put your certificate images inside
+          <code>assets/images/certificates/</code> and update file names in
+          <code>script.js</code>.
+        </p>
+        <div id="certificate-list" class="certificate-list"></div>
+        <p id="certificate-empty" class="certificate-empty" hidden>
+          No certificate images were found. Check folder path and image file
+          names.
+        </p>
       </section>
 
       <section id="contact" class="section">
