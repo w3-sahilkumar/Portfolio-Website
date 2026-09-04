@@ -262,7 +262,7 @@ function initAnimatedStats(prefersReducedMotion) {
 
   if (prefersReducedMotion) {
     stats.forEach((stat) => {
-      stat.textContent = stat.dataset.target;
+      stat.textContent = `${stat.dataset.target}${stat.dataset.suffix || ""}`;
     });
     return;
   }
@@ -276,7 +276,7 @@ function initAnimatedStats(prefersReducedMotion) {
       const progress = Math.min((now - start) / duration, 1);
       const eased = 1 - Math.pow(1 - progress, 3);
       const value = Math.round(target * eased);
-      element.textContent = value;
+      element.textContent = `${value}${element.dataset.suffix || ""}`;
 
       if (progress < 1) {
         requestAnimationFrame(tick);
