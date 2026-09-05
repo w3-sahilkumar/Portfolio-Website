@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "(prefers-reduced-motion: reduce)"
   ).matches;
 
+  initThemeToggle();
   initTypedRole(prefersReducedMotion);
   initMobileNav();
   initScrollReveal(prefersReducedMotion);
@@ -15,9 +16,35 @@ document.addEventListener("DOMContentLoaded", () => {
   initScrollProgress();
   initCopyEmailButton();
   initAnimatedStats(prefersReducedMotion);
-  initHeroNameHover();
   initCertificateModal();
 });
+
+/* ---------------------------------------------------------
+   0. Theme switch with a remembered preference
+--------------------------------------------------------- */
+function initThemeToggle() {
+  const toggle = document.getElementById("themeToggle");
+  const toggleText = document.getElementById("themeToggleText");
+  if (!toggle) return;
+
+  const updateThemeLabel = () => {
+    const isLight = document.documentElement.dataset.theme === "light";
+    const nextTheme = isLight ? "dark" : "light";
+    const label = `Switch to ${nextTheme} mode`;
+    toggle.setAttribute("aria-label", label);
+    toggle.setAttribute("title", label);
+    if (toggleText) toggleText.textContent = label;
+  };
+
+  toggle.addEventListener("click", () => {
+    const nextTheme = document.documentElement.dataset.theme === "light" ? "dark" : "light";
+    document.documentElement.dataset.theme = nextTheme;
+    localStorage.setItem("portfolio-theme", nextTheme);
+    updateThemeLabel();
+  });
+
+  updateThemeLabel();
+}
 
 /* ---------------------------------------------------------
    1. Typed / rotating role text in the hero terminal prompt
@@ -176,26 +203,7 @@ function initFooterYear() {
 }
 
 /* ---------------------------------------------------------
-   6. Hero name hover accent
---------------------------------------------------------- */
-function initHeroNameHover() {
-  const heroName = document.querySelector(".hero__name");
-  if (!heroName) return;
-
-  const defaultColor = getComputedStyle(document.body).getPropertyValue("--text").trim();
-  const hoverColor = getComputedStyle(document.body).getPropertyValue("--accent").trim();
-
-  heroName.addEventListener("mouseenter", () => {
-    heroName.style.color = hoverColor;
-  });
-
-  heroName.addEventListener("mouseleave", () => {
-    heroName.style.color = defaultColor;
-  });
-}
-
-/* ---------------------------------------------------------
-   7. Scroll progress bar at the top of the page
+   6. Scroll progress bar at the top of the page
 --------------------------------------------------------- */
 function initScrollProgress() {
   const progress = document.createElement("div");
